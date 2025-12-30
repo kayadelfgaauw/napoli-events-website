@@ -459,6 +459,14 @@ img {
     align-items: center;
 }
 
+.intro-text h2 {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    text-align: left;
+    /* Explicitly left align */
+}
+
 .intro-text p {
     margin-bottom: 24px;
     font-size: 1.15rem;
