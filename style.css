@@ -1332,7 +1332,7 @@ img {
     }
 
     .contact-wrapper {
-        gap: 30px;
+        gap: 0;
     }
 
     .contact-buttons-fixed {
