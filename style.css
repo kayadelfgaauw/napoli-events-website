@@ -915,10 +915,24 @@ img {
 
     .mobile-nav-toggle {
         display: block;
+        color: var(--primary-color);
+        /* Dark blue */
+        font-size: 2rem;
+        /* Larger icon */
+    }
+
+    .nav-list a {
+        font-size: 1.5rem;
+        /* Larger menu items */
+        margin: 10px 0;
     }
 
     .hero-title {
         font-size: 2.2rem;
+        line-height: 1.1;
+        /* Adjusted spacing */
+        letter-spacing: 0.5px;
+        /* Tighter letters */
     }
 
     .intro-grid {
