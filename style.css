@@ -134,13 +134,17 @@ img {
     display: inline-block;
     padding: 12px 30px;
     border-radius: 30px;
-    border-radius: 30px;
+    font-family: 'Oswald', sans-serif;
+    /* Standardized Font */
     font-weight: 400;
-    /* Normal weight requested */
+    /* Standardized Weight */
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
     border: none;
+    box-shadow: none !important;
+    /* Force remove all shadows */
 }
 
 .btn-primary {
@@ -151,34 +155,25 @@ img {
 .btn-primary:hover {
     background-color: #333;
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: none !important;
 }
 
 .btn-hero {
     background-color: #82d4f6;
-    /* Light Blue */
     color: #fff;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 30px;
-    /* Pill shape */
-    letter-spacing: 1px;
+    /* Font styles inherited from shared block */
     transition: all 0.3s ease;
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: none !important;
 }
 
 .btn-hero:hover {
     background-color: #5ac2ed;
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
     color: #fff;
+    box-shadow: none !important;
 }
 
 .btn-secondary {
@@ -190,7 +185,7 @@ img {
 .btn-secondary:hover {
     background-color: var(--primary-color);
     color: var(--light-text);
-    box-shadow: 0 4px 15px rgba(19, 41, 61, 0.2);
+    box-shadow: none !important;
 }
 
 .btn-block {
@@ -748,13 +743,13 @@ img {
 .contact-form .btn-primary {
     background-color: #82D4F7;
     color: #fff;
-    box-shadow: 0 4px 15px rgba(130, 212, 247, 0.3);
+    box-shadow: none !important;
 }
 
 .contact-form .btn-primary:hover {
     background-color: #5ac2ed;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(130, 212, 247, 0.4);
+    box-shadow: none !important;
 }
 
 /* Removed .contact-form::before overlay */
