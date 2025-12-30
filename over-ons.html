@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over Napoli Events - Ons Verhaal & Passie</title>
+    <meta name="description"
+        content="Maak kennis met het team achter Napoli Events. Geboren uit pure Napolitaanse passie brengen wij het échte Italië naar Zeeland.">
+    <link rel="icon" type="image/webp" href="favicon.webp">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/WebP/logo-blue.webp" alt="Napoli Events Logo" class="nav-logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="catering.html" class="dropdown-toggle">Catering</a>
+                        <div class="dropdown-menu">
+                            <a href="originale.html" class="dropdown-item">Napoli Originale</a>
+                            <a href="exclusief.html" class="dropdown-item">De Proeverij</a>
+                            <a href="assets/Brochure/brochure%20Napoli%20Events.pdf" class="dropdown-item"
+                                download>Download Brochure</a>
+                        </div>
+                    </li>
+                    <li><a href="workshops.html">Workshops</a></li>
+                    <li><a href="over-ons.html" class="active">Over Ons</a></li>
+                    <li><a href="#contact" class="btn-primary">Offerte</a></li>
+                </ul>
+                <button class="mobile-nav-toggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Split Gradient Hero -->
+    <section class="about-hero-split">
+        <div class="hero-text-side">
+            <div class="hero-text-content">
+                <h1>van Napolitaanse <span class="text-highlight-blue">roots</span><br>tot jouw perfecte <span
+                        class="text-highlight-blue">pizza</span></h1>
+            </div>
+        </div>
+        <div class="hero-image-side">
+            <img src="assets/images/WebP/about-hero-split.webp" alt="Napoli Events Team">
+        </div>
+    </section>
+
+    <!-- Alternating Content Sections -->
+    <div class="about-content-wrapper">
+
+        <!-- Section 1: Image Left, Text Right -->
+        <section class="about-split-section">
+            <div class="container split-container">
+                <div class="split-image">
+                    <img src="assets/images/WebP/gallery-2.webp" alt="Napolitaanse Passie">
+                </div>
+                <div class="split-text">
+                    <h3>Geboren uit Napolitaanse passie</h3>
+                    <p>Met Napolitaans bloed in de aderen en een levenslange bewondering voor de stad Napels, ontstond
+                        de
+                        droom om de authentieke pizzacultuur naar Nederland te brengen. De passie voor het vak van de
+                        traditionele <i>Pizzaioli</i> vormt het kloppend hart van alles wat we bij Napoli Events doen.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Text Left, Image Right -->
+        <section class="about-split-section bg-light">
+            <div class="container split-container split-reverse">
+                <div class="split-text">
+                    <h3>De kunst van het ambacht</h3>
+                    <p>De afgelopen jaren stonden volledig in het teken van het perfectioneren van de Napolitaanse
+                        techniek. Door intensieve bezoeken aan de beste pizzeria’s ter wereld, workshops bij
+                        gediplomeerde meesters en eindeloos eigen experimenten, hebben we dit ambacht tot in de kleinste
+                        details onder de knie gekregen.</p>
+                </div>
+                <div class="split-image">
+                    <img src="assets/images/WebP/hero.webp" alt="Vers gebakken pizza">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Image Left, Text Right -->
+        <section class="about-split-section">
+            <div class="container split-container">
+                <div class="split-image">
+                    <img src="assets/images/WebP/hero-new.webp" alt="Beleving op Locatie">
+                </div>
+                <div class="split-text">
+                    <h3>Een beleving op jouw locatie</h3>
+                    <p>Het is onze missie om niet alleen de smaak van Napels te delen, maar ook de warmte en
+                        karakteristieke gezelligheid die bij deze traditie horen. Vandaag de dag brengen wij die
+                        Napolitaanse beleving naar jouw feest of evenement: pizza’s met passie, authentiek bereid
+                        volgens de regels van de kunst, maar dan vers geserveerd op jouw locatie.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Contact Form -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Klaar voor de Napolitaanse Beleving? 🇮🇹</h2>
+                    <p>Neem contact op en ontdek wat wij voor uw evenement kunnen betekenen.</p>
+                    <div class="info-item"><i class="fas fa-phone"></i><span>+31 6 23950526</span></div>
+                    <div class="info-item"><i class="fas fa-envelope"></i><span>info@napolievents.nl</span></div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Naam</label>
+                        <input type="text" id="name" name="name" required placeholder="Uw naam">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required placeholder="Uw e-mailadres">
+                    </div>
+                    <div class="form-group">
+                        <label for="type">Type Evenement</label>
+                        <select id="type" name="type">
+                            <option value="originale">Napoli Originale</option>
+                            <option value="exclusief">De Proeverij</option>
+                            <option value="workshop">Napoli Workshop</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Uw Bericht</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Vertel ons meer..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-block">Verstuur</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Napoli Events</h3>
+                <p>Dé specialist in authentieke Napolitaanse pizza catering op locatie in Zeeland.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Bedrijfsgegevens</h3>
+                <p>Napoli Events B.V.</p>
+                <p>Grote Markt 12, 4461 AJ Goes</p>
+                <p>KvK: 97017779</p>
+            </div>
+            <div class="footer-col">
+                <h3>Volg Ons</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/napolievents_" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61573839493203&ref=pl_edit_xav_ig_profile_page_web#"
+                        aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/31623950526" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Napoli Events. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <a href="https://wa.me/31623950526" target="_blank" class="fab-btn whatsapp" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:info@napolievents.nl" class="fab-btn email" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedankt voor uw aanvraag! | Napoli Events</title>
+    <meta name="description" content="Uw aanvraag is succesvol verzonden. Wij nemen zo snel mogelijk contact met u op.">
+    <link rel="icon" type="image/webp" href="favicon.webp">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .success-hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(12, 124, 89, 0.9), rgba(12, 124, 89, 0.95)), url('assets/images/WebP/hero.webp');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 2rem;
+            margin-top: 80px;
+        }
+
+        .success-content i {
+            font-size: 5rem;
+            margin-bottom: 1.5rem;
+            color: #87CEEB;
+            /* Secondary accent blue */
+        }
+
+        .success-content h1 {
+            font-family: 'Stone Sans', sans-serif;
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .success-content p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            line-height: 1.6;
+        }
+
+        .btn-outline {
+            border: 2px solid white;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: #0C7C59;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/WebP/logo-blue.webp" alt="Napoli Events Logo" class="nav-logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="catering.html" class="dropdown-toggle">Catering</a>
+                        <div class="dropdown-menu">
+                            <a href="originale.html" class="dropdown-item">Napoli Originale</a>
+                            <a href="exclusief.html" class="dropdown-item">De Proeverij</a>
+                            <a href="assets/Brochure/brochure%20Napoli%20Events.pdf" class="dropdown-item"
+                                download>Download Brochure</a>
+                        </div>
+                    </li>
+                    <li><a href="workshops.html">Workshops</a></li>
+                    <li><a href="over-ons.html">Over Ons</a></li>
+                    <li><a href="index.html#contact" class="btn-primary">Offerte</a></li>
+                </ul>
+                <button class="mobile-nav-toggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Success Hero -->
+    <section class="success-hero">
+        <div class="success-content">
+            <i class="fas fa-check-circle"></i>
+            <h1>Grazie Mille!</h1>
+            <p>Uw aanvraag is succesvol verzonden naar Napoli Events. Wij nemen zo snel mogelijk contact met u op om uw
+                wensen te bespreken.</p>
+            <a href="index.html" class="btn-outline">Terug naar Home</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Napoli Events</h3>
+                <p>Dé specialist in authentieke Napolitaanse pizza catering op locatie in Zeeland.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Bedrijfsgegevens</h3>
+                <p>Napoli Events B.V.</p>
+                <p>Grote Markt 12, 4461 AJ Goes</p>
+                <p>KvK: 97017779</p>
+            </div>
+            <div class="footer-col">
+                <h3>Volg Ons</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/napolievents_" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61573839493203&ref=pl_edit_xav_ig_profile_page_web#"
+                        aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/31623950526" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Napoli Events. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

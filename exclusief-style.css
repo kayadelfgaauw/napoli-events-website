@@ -1,0 +1,240 @@
+/* =========================================
+   Napoli Exclusief - Editorial Redesign
+   ========================================= */
+
+body.exclusief-page {
+    background-color: #0B1C2C;
+    /* Midnight Blue */
+    color: #F5F5F5;
+    /* Cream Text */
+    /* Cream Text */
+    font-family: var(--font-body);
+}
+
+/* Header overrides removed to match homepage */
+
+.exclusief-page .hero-title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    /* Elegant Thin */
+    font-size: 5rem;
+    font-size: 5rem;
+    letter-spacing: 0.05em;
+    /* Increased spacing for luxury feel */
+    text-transform: uppercase;
+    color: #C5A059;
+    /* Gold */
+    margin-bottom: 1rem;
+}
+
+.exclusief-page .hero-subtitle {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #F5F5F5;
+    opacity: 0.9;
+}
+
+.exclusief-page .btn-hero {
+    background-color: transparent;
+    border: 1px solid #C5A059;
+    color: #C5A059;
+    font-family: var(--font-body);
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    padding: 15px 40px;
+    transition: all 0.4s ease;
+}
+
+.exclusief-page .btn-hero:hover {
+    background-color: #C5A059;
+    color: #0B1C2C;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(197, 160, 89, 0.2);
+}
+
+/* Editorial Section */
+.editorial-section {
+    padding: 150px 0;
+    /* Increased padding */
+    background-image: linear-gradient(to bottom, #0B1C2C, #0f253a);
+}
+
+.eyebrow {
+    display: block;
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.8rem;
+    color: #C5A059;
+    margin-bottom: 20px;
+}
+
+.editorial-title {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    color: #F5F5F5;
+    margin-bottom: 30px;
+}
+
+.editorial-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: rgba(245, 245, 245, 0.8);
+    font-weight: 300;
+}
+
+.divider-gold {
+    width: 60px;
+    height: 1px;
+    background-color: #C5A059;
+    margin: 0 auto 80px;
+}
+
+/* Menu Showcase */
+.menu-showcase {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-card {
+    background: rgba(11, 28, 44, 0.6);
+    /* Semi-transparent dark */
+    backdrop-filter: blur(10px);
+    /* Glassmorphism */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    padding: 60px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.menu-card::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid rgba(197, 160, 89, 0.1);
+    pointer-events: none;
+}
+
+.menu-title {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: #C5A059;
+    margin-bottom: 10px;
+}
+
+.menu-subtitle {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 1.2rem;
+    color: rgba(245, 245, 245, 0.6);
+    margin-bottom: 50px;
+}
+
+.menu-item {
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.course {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: #F5F5F5;
+}
+
+.price {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    color: #C5A059;
+}
+
+.menu-desc {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: rgba(245, 245, 245, 0.7);
+    text-align: left;
+    font-style: italic;
+}
+
+.menu-footer {
+    margin-top: 40px;
+    color: rgba(245, 245, 245, 0.4);
+    font-size: 0.8rem;
+}
+
+/* Process Section Override */
+.exclusief-page .bg-light {
+    background-color: #0B1C2C !important;
+    color: #F5F5F5;
+}
+
+.exclusief-page .section-title {
+    color: #C5A059;
+}
+
+/* Contact Section Override */
+.exclusief-page .contact-section {
+    background-color: #0f253a;
+}
+
+.exclusief-page .contact-wrapper {
+    background: #0B1C2C;
+    border: 1px solid rgba(197, 160, 89, 0.3);
+}
+
+.exclusief-page .contact-info {
+    background-color: #081420;
+}
+
+.exclusief-page .contact-info h2 {
+    color: #C5A059;
+}
+
+.exclusief-page .form-group label {
+    color: #C5A059;
+}
+
+.exclusief-page .form-group input,
+.exclusief-page .form-group select,
+.exclusief-page .form-group textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #F5F5F5;
+}
+
+.exclusief-page .form-group input:focus,
+.exclusief-page .form-group select:focus,
+.exclusief-page .form-group textarea:focus {
+    border-color: #C5A059;
+}
+
+@media (max-width: 768px) {
+    .exclusief-page .hero-title {
+        font-size: 3rem;
+    }
+
+    .menu-card {
+        padding: 30px;
+    }
+}
