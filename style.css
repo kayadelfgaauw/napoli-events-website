@@ -795,8 +795,8 @@ img {
 
 /* Footer */
 .footer {
-    background-color: #122a3e;
-    /* New dark blue footer */
+    background-color: var(--primary-color);
+    /* Standardized dark blue */
     color: #fff;
     padding: 60px 0 20px;
 }
